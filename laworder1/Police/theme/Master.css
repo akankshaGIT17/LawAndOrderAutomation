@@ -1,0 +1,62 @@
+BODY
+{
+	background-image: url("../images/general/bgstrike.gif");
+	font-size: 10pt;
+	margin: 0px;
+	background-repeat: repeat;
+	
+}
+
+H1
+{
+    /*COLOR: #6666CC;*/
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize;
+    font-weight: bold;
+    color: black;
+   
+}
+H2
+{
+    /* COLOR: #6666CC; */
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize;
+    color: black;
+}
+H3
+{
+  
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+
+H4
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+
+H5
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+H6
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+TH {
+ color: #6060cc
+}
+#message p{
+	text-align:justify;
+}
+
+a { color: #08c; }
+a:link, a:visited, a:active { text-decoration: none; }
+a:hover { text-decoration: underline; }
+.blue { color: #08c; }

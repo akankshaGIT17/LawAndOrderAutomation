@@ -1,0 +1,131 @@
+/* BUTTONS */
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	font-size: 10pt;
+	color: #495057;
+	
+}
+.boxcap.captop
+{
+	top:0;
+	background-image:url(http://images.apple.com/mac/home/images/box_980_captop.png);
+}
+.box h2 {
+	float:none !important;
+	margin:0;
+	padding:0px 0 0px 0px;
+	color:#fff; font-size:12px;
+	font-weight:bold;
+	border-bottom:1px solid #6c7b94;
+	background:#72839d
+}
+
+.style3 {
+	color: #FF0000;
+}
+
+
+.menu {
+	margin: 0;
+	padding: 0px;
+	background: url('/img/bgstrike.gif');
+	border: 0px;
+}
+
+td.menu {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 10pt;
+	
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+}
+
+td.s_menu {
+	background: url('../images/menu/s_back.gif');
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 10pt;
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+}
+
+td.ml {
+	background: url('../images/menu/n_left.gif');
+	width: 7px;
+}
+
+td.mr {
+	background: url('../images/menu/n_right.gif');
+	width: 7px;
+}
+
+td.s_ml {
+	background: url('../images/menu/s_left.gif');
+	width: 7px;
+}
+
+td.s_mr {
+	background: url('../images/menu/s_right.gif');
+	width: 7px;
+}
+/* table.module {
+	background: url('./images/lbg.gif');
+	border: 0px;
+}*/
+
+th.module {
+	text-align: left;
+	padding-left: 6px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 8pt;
+	font-family: Verdana, sans-serif;
+}
+
+/* td.module {
+	padding-left: 4px;
+	color: white;
+	font-weight: normal;
+	background: url('./images/lg.gif');
+	background-repeat: no-repeat;
+	vertical-align: top;
+	font-size: 8pt;
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+}*/
+
+#menu a:link, a:visited, p.content a:link, p.content a:active, p.content a:visited {
+	text-decoration: none;
+	font-style: normal;
+	color: #333344;
+	font-size: 10.5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+}
+
+
+#menu a:hover, p.content a:hover {
+	color: #DD1010;
+}
+.back {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+.top{
+	background: url("../images/menu/top.png");
+	background-repeat: repeat-x;
+}

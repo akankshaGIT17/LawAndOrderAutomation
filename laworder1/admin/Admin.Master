@@ -1,0 +1,180 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="laworder1.admin.Admin" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<link href="theme/button.css" rel="stylesheet" type="text/css" />
+<link href="theme/Master.css" rel="stylesheet" type="text/css" />
+<link href="theme/sitemap.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" language="JavaScript" src="../scripts/vertdtree.js"></script>
+<link rel="stylesheet" href="../scripts/dtree.css" type="text/css" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style2
+        {
+            height: 127px;
+            width: 112px;
+        }
+       #cssmenu {
+  float: left;
+  width: 100%;
+  background: url("../img/bgstrike.gif");
+  font-size: 93%;
+  line-height: normal;
+  border-bottom: 1px solid #666;
+}
+#cssmenu ul {
+  margin: 0;
+  padding: 10px 10px 0 50px;
+  list-style: none;
+}
+#cssmenu li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu a {
+  float: right;
+  background: url("../img/menu/tableftF.gif") no-repeat left top;
+  margin: 0;
+  padding: 0 0 0 4px;
+  text-decoration: none;
+}
+#cssmenu a span {
+  float: left;
+  display: block;
+  background: url("../img/menu/tabrightF.gif") no-repeat right top;
+  padding: 5px 15px 4px 6px;
+  color: #666;
+}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#cssmenu a span {
+  float: none;
+}
+/* End IE5-Mac hack */
+#cssmenu .active a span,
+#cssmenu a:hover span {
+  color: #FFFFFF;
+}
+#cssmenu .active a,
+#cssmenu a:hover {
+  background-position: 0 -42px;
+}
+#cssmenu .active a span,
+#cssmenu a:hover span {
+  background-position: 100% -42px;
+}
+
+}
+    </style>
+</head>
+<body background="../img/bgstrike.gif" style="border: 0px">
+    
+    <table align="center" class="style1" >
+            <tr>
+                <td>
+                    <img align="middle" alt="badge" class="style2" src="../img/badge.png" />
+                </td>
+                <td style="background-position: center center; font-size: x-large; background-image: url('../img/bgstrike.gif');
+                    font-family: Cambria; text-align: center;">
+                    <h3>
+                        Law And Order Automation</h3>
+                            <h5 style="color: #FF6600; height: 3px;" >  &#2360;&#2375;&#2357;&#2366; &#2360;&#2369;&#2352;&#2325;&#2381;&#2358;&#2366; &#2360;&#2361;&#2351;&#2379;&#2327;   </h5>           
+                </td>
+            </tr>
+           
+        </table>
+       
+        <div id='cssmenu'>
+            <ul>
+                
+             
+                <li ><a href='reports.aspx'><span>Reports</span></a></li>
+                <li class='active'><a href='default.aspx'><span>Home</span></a></li>
+                
+            </ul>
+        </div>
+        <table width='100%' >
+			<tr>
+				<td width='20%' valign='top'>
+			<!-- Left column start -->
+			
+				<table  width='91%'   >
+		
+				<tr><td>
+    <table class='back' width="100%" >
+		 			
+						<tr>
+				 	
+					
+						<td colspan='2' style="text-align:left" id='email-text'><strong>Welcome, </strong><b>
+                            <asp:Label runat="server" ID="lblUserName"></asp:Label>  </b> </td>
+							
+						</tr>
+						<tr>
+							<td style="padding-top:3px" id='password-text'>
+                                <img border="0"
+					src="images/general/PAdmin.png" style="height: 113px; width: 116px"  /></td>
+							<td style="text-align:left">
+								<a href="myprofile.aspx">My Profile</a><br />
+                                
+								
+								
+						</td>
+						</tr>
+						
+				
+						<tr>
+							<td></td>
+							
+						</tr>
+						</table>
+                        </td></tr>
+
+					
+					<tr><td>
+						<br />
+                        <br />
+						
+					</td></tr>
+					<tr>
+					<td>
+					<%-- 	<table cellspacing='5' class='back' style='text-align:left;' width='100%' >
+
+<tr><td></td><td class="style4"><center><strong>Requirements </strong></center></td></tr>
+<tr><td></td><td class="style4">It is advisory to provide a photo of the lost person.</td></tr>
+	<tr><td></td><td class="style4">Give height and weight in proper format asked.</td></tr>
+	<tr><td></td><td class="style4">Enter time in <b>HH:MM AM/PM format only</b>.</td></tr>
+	<tr><td></td><td class="style4">Give full description for kidnapper etc if you know.</td></tr>
+    <tr><td></td><td class="style4">Depending on the situation the lost person's image will be flashed on our website.</td></tr>
+	
+	
+</table> </td>--%>
+					</tr>
+					
+			</table>	
+            </td>
+				
+				<td width="60%" valign="top">	
+        <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    </div>
+    </br></br></br>
+    <div class="cleaner">
+        &nbsp;</div>
+    <div id="templatemo_footer_wrapper">
+        <div id="templatemo_footer" style="text-align: center;">
+            Copyright © Akanksha <a href="Home.aspx">Home</a> | <a href="http://www.templatemo.com"
+                target="_parent">Terms and conditions</a> | <a href="http://www.templatemo.com" target="_parent">
+                    Site Map</a>
+        </div>
+        <!-- end of footer -->
+    
+</body>
+</html>

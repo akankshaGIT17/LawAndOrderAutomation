@@ -1,0 +1,208 @@
+/* BUTTONS */
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	font-size: 8pt;
+	color: #495057;
+	
+}
+.boxcap.captop
+{
+	top:0;
+	background-image:url(http://images.apple.com/mac/home/images/box_980_captop.png);
+}
+.box h2 {
+	float:none !important;
+	margin:0;
+	padding:0px 0 0px 0px;
+	color:#fff; font-size:12px;
+	font-weight:bold;
+	border-bottom:1px solid #6c7b94;
+	background:#72839d
+}
+
+/*
+.buttons a, .buttons button{
+    display:block;
+    float:left;
+    margin:0 7px 0 0;
+    background-color:#f5f5f5;
+    border:1px solid #dedede;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;
+
+    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size:100%;
+    line-height:130%;
+    text-decoration:none;
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+    padding:5px 10px 6px 7px; /* Links 
+}
+.buttons button{
+    width:auto;
+    overflow:visible;
+    padding:4px 10px 3px 7px; /* IE6 
+}
+.buttons button[type]{
+    padding:5px 10px 5px 7px; /* Firefox 
+    line-height:17px; /* Safari 
+}
+*:first-child+html button[type]{
+    padding:4px 10px 3px 7px; /* IE7 
+}
+.buttons button img, .buttons a img{
+    margin:0 3px -3px 0 !important;
+    padding:0;
+    border:none;
+    width:16px;
+    height:16px;
+    
+}
+/* STANDARD 
+
+button:hover, .buttons a:hover{
+    background-color:#dff4ff;
+    border:1px solid #c2e1ef;
+    color:#336699;
+}
+.buttons a:active{
+    background-color:#6299c5;
+    border:1px solid #6299c5;
+    color:#fff;
+}
+
+/* POSITIVE 
+
+button.positive, .buttons a.positive{
+    color:#529214;
+}
+.buttons a.positive:hover, button.positive:hover{
+    background-color:#E6EFC2;
+    border:1px solid #C6D880;
+    color:#529214;
+}
+.buttons a.positive:active{
+    background-color:#529214;
+    border:1px solid #529214;
+    color:#fff;
+}
+
+/* NEGATIVE 
+
+.buttons a.negative, button.negative{
+    color:#d12f19;
+}
+.buttons a.negative:hover, button.negative:hover{
+    background:#fbe3e4;
+    border:1px solid #fbc2c4;
+    color:#d12f19;
+}
+.buttons a.negative:active{
+    background-color:#d12f19;
+    border:1px solid #d12f19;
+    color:#fff;
+} */
+/*Menu styles Start*/
+.menu {
+	margin: 0;
+	padding: 0px;
+	background: url('../images/menu/n_back.gif');
+	border: 0px;
+}
+
+td.menu {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 10pt;
+	
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+}
+
+td.s_menu {
+	background: url('../images/menu/s_back.gif');
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 10pt;
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+}
+
+td.ml {
+	background: url('../images/menu/n_left.gif');
+	width: 7px;
+}
+
+td.mr {
+	background: url('../images/menu/n_right.gif');
+	width: 7px;
+}
+
+td.s_ml {
+	background: url('../images/menu/s_left.gif');
+	width: 7px;
+}
+
+td.s_mr {
+	background: url('../images/menu/s_right.gif');
+	width: 7px;
+}
+/* table.module {
+	background: url('./images/lbg.gif');
+	border: 0px;
+}*/
+
+th.module {
+	text-align: left;
+	padding-left: 6px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 8pt;
+	font-family: Verdana, sans-serif;
+}
+
+/* td.module {
+	padding-left: 4px;
+	color: white;
+	font-weight: normal;
+	background: url('./images/lg.gif');
+	background-repeat: no-repeat;
+	vertical-align: top;
+	font-size: 8pt;
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+}*/
+
+#menu a:link, a:visited, p.content a:link, p.content a:active, p.content a:visited {
+	text-decoration: none;
+	font-style: normal;
+	color: #333344;
+	font-size: 10.5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+}
+
+
+#menu a:hover, p.content a:hover {
+	color: #DD1010;
+}
+.back {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+/* Menu styles end */

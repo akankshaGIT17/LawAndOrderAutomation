@@ -1,0 +1,119 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="laworder1.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<link href="theme/button.css" rel="stylesheet" type="text/css" />
+<link href="theme/Master.css" rel="stylesheet" type="text/css" />
+<link href="theme/preview.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" language="JavaScript" src="scripts/vertdtree.js"></script>
+<link rel="stylesheet" href="scripts/dtree.css" type="text/css" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style2
+        {
+            height: 127px;
+            width: 112px;
+        }
+       #cssmenu {
+  float: left;
+  width: 100%;
+  background: url("img/bgstrike.gif");
+  font-size: 93%;
+  line-height: normal;
+  border-bottom: 1px solid #666;
+}
+#cssmenu ul {
+  margin: 0;
+  padding: 10px 10px 0 50px;
+  list-style: none;
+}
+#cssmenu li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu a {
+  float: right;
+  background: url("img/menu/tableftF.gif") no-repeat left top;
+  margin: 0;
+  padding: 0 0 0 4px;
+  text-decoration: none;
+}
+#cssmenu a span {
+  float: left;
+  display: block;
+  background: url("img/menu/tabrightF.gif") no-repeat right top;
+  padding: 5px 15px 4px 6px;
+  color: #666;
+}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#cssmenu a span {
+  float: none;
+}
+/* End IE5-Mac hack */
+
+#cssmenu .active a span,
+#cssmenu a:hover span {
+  color: #FFFFFF;
+}
+#cssmenu .active a,
+#cssmenu a:hover {
+  background-position: 0 -42px;
+}
+
+#cssmenu .active a span,
+#cssmenu a:hover span {
+  background-position: 100% -42px;
+}
+
+
+    </style>
+</head>
+<body background="img/bgstrike.gif" style="border: 0px">
+    
+    <table align="center" class="style1" >
+            <tr>
+                <td>
+                    <img align="middle" alt="badge" class="style2" src="img/badge.png" />
+                </td>
+                <td style="background-position: center center; font-size: x-large; background-image: url('/img/bgstrike.gif');
+                    font-family: Cambria; text-align: center;">
+                    <h3>
+                        Law And Order Automation</h3>
+                            <h5 style="color: #FF6600; height: 3px;" >  &#2360;&#2375;&#2357;&#2366; &#2360;&#2369;&#2352;&#2325;&#2381;&#2358;&#2366; &#2360;&#2361;&#2351;&#2379;&#2327;   </h5>           
+                </td>
+            </tr>
+           
+        </table>
+       
+        <div id='cssmenu'>
+            <ul>
+                <li><a href='helpsupport.aspx' class='last'><span>Help and Support</span></a></li>
+                <li><a href='policedepartment.aspx'><span>Police Department</span></a></li>
+                <li><a href='lawandacts.aspx'><span>Laws and Acts</span></a></li>
+                <li><a href='Services.aspx'><span>Services</span></a></li>
+                <li><a href='WebForm3.aspx'><span>SignUp</span></a></li>
+                <li><a href='UserLogin.aspx'><span>Login</span></a></li>
+                <li class="active"><a href='Home.aspx'><span >Home</span></a></li>
+            </ul>
+        </div>
+        <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    
+    <div class="cleaner">
+        &nbsp;</div>
+    <div id="templatemo_footer_wrapper">
+        <div id="templatemo_footer" style="text-align: center;">
+            Copyright © Akanksha <a href="Home.aspx">Home</a>  </div>
+        </div>
+        <!-- end of footer -->
+    
+</body>
+</html>
